@@ -1,82 +1,212 @@
 [
   {
     "mode": "NULLABLE",
-    "name": "subscriberId",
-    "type": "STRING"
-  },
-  {
-    "mode": "NULLABLE",
-    "name": "srcIP",
-    "type": "STRING"
-  },
-  {
-    "mode": "NULLABLE",
-    "name": "dstIP",
-    "type": "STRING"
-  },
-  {
-    "mode": "NULLABLE",
-    "name": "srcPort",
+    "name": "duration",
     "type": "INTEGER"
   },
   {
     "mode": "NULLABLE",
-    "name": "dstPort",
+    "name": "protocol_type",
     "type": "INTEGER"
   },
   {
     "mode": "NULLABLE",
-    "name": "txBytes",
+    "name": "service",
     "type": "INTEGER"
   },
   {
     "mode": "NULLABLE",
-    "name": "rxBytes",
+    "name": "flag",
     "type": "INTEGER"
   },
   {
     "mode": "NULLABLE",
-    "name": "startTime",
+    "name": "src_bytes",
     "type": "INTEGER"
   },
   {
     "mode": "NULLABLE",
-    "name": "endTime",
+    "name": "dst_bytes",
     "type": "INTEGER"
   },
   {
     "mode": "NULLABLE",
-    "name": "tcpFlag",
+    "name": "land",
     "type": "INTEGER"
   },
   {
     "mode": "NULLABLE",
-    "name": "protocolName",
-    "type": "STRING"
-  },
-  {
-    "mode": "NULLABLE",
-    "name": "protocolNumber",
+    "name": "wrong_fragment",
     "type": "INTEGER"
   },
   {
     "mode": "NULLABLE",
-    "name": "geoCountry",
-    "type": "STRING"
+    "name": "urgent",
+    "type": "INTEGER"
   },
   {
     "mode": "NULLABLE",
-    "name": "geoCity",
-    "type": "STRING"
+    "name": "hot",
+    "type": "INTEGER"
   },
   {
     "mode": "NULLABLE",
-    "name": "latitude",
+    "name": "num_failed_logins",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "logged_in",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "num_compromised",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "root_shell",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "su_attempted",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "num_root",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "num_file_creations",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "num_shells",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "num_access_files",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "num_outbound_cmds",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "is_host_login",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "is_guest_login",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "count",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "srv_count",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "serror_rate",
     "type": "FLOAT"
   },
   {
     "mode": "NULLABLE",
-    "name": "longitude",
+    "name": "srv_serror_rate",
     "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "rerror_rate",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "srv_rerror_rate",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "same_srv_rate",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "diff_srv_rate",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "srv_diff_host_rate",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "dst_host_count",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "dst_host_srv_count",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "dst_host_same_srv_rate",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "dst_host_diff_srv_rate",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "dst_host_same_src_port_rate",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "dst_host_srv_diff_host_rate",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "dst_host_serror_rate",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "dst_host_srv_serror_rate",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "dst_host_rerror_rate",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "dst_host_srv_rerror_rate",
+    "type": "FLOAT"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "type_of_attack",
+    "type": "INTEGER"
   }
 ]
