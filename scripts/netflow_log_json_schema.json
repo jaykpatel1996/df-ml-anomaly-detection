@@ -10,6 +10,7 @@
  "endTime": {{endtime()}},
  "tcpFlag": {{integer(0,65)}},
  "protocolName": "{{random("tcp","udp","http")}}",
- "protocolNumber": {{integer(0,1)}}
+ "protocolNumber": {{integer(0,1)}},
+ "type_of_attack": {{integer(0,1)}}
 }
 
